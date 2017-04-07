@@ -55,9 +55,9 @@ en:
       hello:
         title: ":robot: Greetings!"
         message: |-
-          Thanks for joining %{title}, and welcome! FIlip
+          Thanks for joining %{title}, and welcome! Filip
 
-          - I’m only a robot, but [our friendly staff](/about) are also here to help if you need to reach a person.
+          - I’m only a robot, but there are many helpful humans on this forum, including [our friendly staff](/about).
 
           - For safety reasons, we temporarily limit what new users can do. You’ll gain new abilities (and [badges](/badges)) as we get to know you.
 
@@ -91,7 +91,7 @@ en:
 
           Can you **reply with a picture?** Any picture will do! Drag and drop, press the upload button, or even copy and paste it in.
         reply: |-
-          Nifty picture – I pressed the like :heart: button to let you know how much I appreciated it :heart_eyes:
+          Nifty picture – I pressed the like :heart: button to let you know how much I appreciated it.
         like_not_found: |-
           Did you forget to like :heart: my [post?](%{url}) :crying_cat_face:
         not_found: |-
@@ -110,7 +110,9 @@ en:
           - or, push the <kbd><b>B</b></kbd> or <kbd><i>I</i></kbd> buttons in the editor
 
         reply: |-
-          Great job! HTML and BBCode also work for formatting – to learn more, [try this tutorial](http://commonmark.org/help) :nerd:
+          Great job! The formatting is done using the easy Markdown language – to learn more, [try this tutorial](http://commonmark.org/help) :nerd:
+          
+          PS: HTML and BBCode also work for formatting.
         not_found: |-
           Aww, I didn’t find any formatting in your reply. :pencil2:
 
