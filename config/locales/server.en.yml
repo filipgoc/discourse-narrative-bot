@@ -55,7 +55,7 @@ en:
       hello:
         title: ":robot: Greetings!"
         message: |-
-          Thanks for joining %{title}, and welcome! Filip
+          Thanks for joining %{title}, and welcome!
 
           - I’m only a robot, but there are many helpful humans on this forum, including [our friendly staff](/about).
 
@@ -122,17 +122,15 @@ en:
         instructions: |-
           Can you try quoting me when you reply, so I know exactly which part you’re replying to?
 
-          > If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee.
-          >
-          > One advantage of talking to yourself is that you know at least somebody’s listening.
-          >
+          This is what a quote looks like:
+
           > Some people have a way with words, and other people… oh, uh, not have way.
 
-          Select the text of whichever &uarr; quote you prefer, and then press the **Quote** button that pops up over your selection – or the **Reply** button at the bottom of this post.
+          Now, select any part of any of my messages you'd like to quote &uarr; , and then press the **Quote** button that pops up over your selection – or the **Reply** button at the bottom of this post.
 
-          Below the quote, type a word or two about why you picked that one, because I’m curious :thinking:
+          Below the quote, type a word or two about why you picked that specific quote, because I’m curious :thinking:
         reply: |-
-          Nice work, you picked my favorite quote! :left_speech_bubble:
+          Nice work, you picked a neat quote! :left_speech_bubble:
         not_found: |-
           Hmm it looks like you didn’t quote me in your reply?
 
@@ -182,9 +180,11 @@ en:
         instructions: |-
           We like our discussions friendly, and we need your help to [keep things civilized](%{guidelines_url}). If you see a problem, please flag to privately let the author, or [our helpful staff](%{about_url}), know about it.
 
+          Let's try it out:
+
           >  :imp: I wrote something nasty here
 
-          I guess you know what to do. Go ahead and **flag this post** <img src="/images/font-awesome-flag.png" width="16" height="16"> as inappropriate!
+          I guess you know what to do. Go ahead. Select <img src="/images/font-awesome-ellipsis.png" width="16" height="16"> below and **flag this post** <img src="/images/font-awesome-flag.png" width="16" height="16"> as inappropriate!
         reply: |-
           [Our staff](/groups/staff) will be privately notified about your flag. If enough community members flag a post, it will also be automatically hidden as a precaution. (Since I didn’t actually write a nasty post :angel:, I’ve gone ahead and removed the flag for now.)
         not_found: |-
@@ -218,7 +218,9 @@ en:
 
           %{certificate}
 
-          That’s all for now! Check out [**our latest discussion topics**](/latest) or [**discussion categories**](/categories). :sunglasses:
+          That’s all for now! Go on and browse the [**discussion categories**](/categories) or check out [**the latest discussion topics**](/latest). :sunglasses:
+
+          Maybe share a photo of your recent creation in the [Made with JellyBOX](/c/made-with-jellybox) category. Sharing is caring ➡️ bragging is allowed here.
 
           (If you’d like to speak with me again to learn more, just message or mention `@%{discobot_username}` any time!)
 
