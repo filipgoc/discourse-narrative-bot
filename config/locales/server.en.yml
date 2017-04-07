@@ -57,7 +57,7 @@ en:
         message: |-
           Thanks for joining %{title}, and welcome!
 
-          - I’m only a robot, but there are many helpful humans on this forum, including [our friendly staff](/about).
+          - I’m only a robot, but [our friendly staff](/about) are also here to help if you need to reach a person.
 
           - For safety reasons, we temporarily limit what new users can do. You’ll gain new abilities (and [badges](/badges)) as we get to know you.
 
@@ -83,7 +83,7 @@ en:
 
       images:
         instructions: |-
-          Here’s a picture of a unicorn as a reward:
+          Here’s a picture of a unicorn:
 
           <img src="/images/unicorn.jpg" width="520" height="381">
 
@@ -91,7 +91,7 @@ en:
 
           Can you **reply with a picture?** Any picture will do! Drag and drop, press the upload button, or even copy and paste it in.
         reply: |-
-          Nifty picture – I pressed the like :heart: button to let you know how much I appreciated it.
+          Nifty picture – I pressed the like :heart: button to let you know how much I appreciated it :heart_eyes:
         like_not_found: |-
           Did you forget to like :heart: my [post?](%{url}) :crying_cat_face:
         not_found: |-
@@ -110,9 +110,7 @@ en:
           - or, push the <kbd><b>B</b></kbd> or <kbd><i>I</i></kbd> buttons in the editor
 
         reply: |-
-          Great job! The formatting is done using the easy Markdown language – to learn more, [try this tutorial](http://commonmark.org/help) :nerd:
-
-          PS: HTML and BBCode also work for formatting.
+          Great job! HTML and BBCode also work for formatting – to learn more, [try this tutorial](http://commonmark.org/help) :nerd:
         not_found: |-
           Aww, I didn’t find any formatting in your reply. :pencil2:
 
@@ -122,15 +120,17 @@ en:
         instructions: |-
           Can you try quoting me when you reply, so I know exactly which part you’re replying to?
 
-          This is what a quote looks like:
-
+          > If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee.
+          >
+          > One advantage of talking to yourself is that you know at least somebody’s listening.
+          >
           > Some people have a way with words, and other people… oh, uh, not have way.
 
-          Now, select any part of any of my messages you'd like to quote &uarr; , and then press the **Quote** button that pops up over your selection – or the **Reply** button at the bottom of this post.
+          Select the text of whichever &uarr; quote you prefer, and then press the **Quote** button that pops up over your selection – or the **Reply** button at the bottom of this post.
 
-          Below the quote, type a word or two about why you picked that specific quote, because I’m curious :thinking:
+          Below the quote, type a word or two about why you picked that one, because I’m curious :thinking:
         reply: |-
-          Nice work, you picked a neat quote! :left_speech_bubble:
+          Nice work, you picked my favorite quote! :left_speech_bubble:
         not_found: |-
           Hmm it looks like you didn’t quote me in your reply?
 
@@ -180,11 +180,9 @@ en:
         instructions: |-
           We like our discussions friendly, and we need your help to [keep things civilized](%{guidelines_url}). If you see a problem, please flag to privately let the author, or [our helpful staff](%{about_url}), know about it.
 
-          Let's try it out:
-
           >  :imp: I wrote something nasty here
 
-          I guess you know what to do. Go ahead. Select <img src="/images/font-awesome-ellipsis.png" width="16" height="16"> below and **flag this post** <img src="/images/font-awesome-flag.png" width="16" height="16"> as inappropriate!
+          I guess you know what to do. Go ahead and **flag this post** <img src="/images/font-awesome-flag.png" width="16" height="16"> as inappropriate!
         reply: |-
           [Our staff](/groups/staff) will be privately notified about your flag. If enough community members flag a post, it will also be automatically hidden as a precaution. (Since I didn’t actually write a nasty post :angel:, I’ve gone ahead and removed the flag for now.)
         not_found: |-
@@ -194,8 +192,7 @@ en:
         instructions: |-
           _psst_ … I’ve hidden a surprise in one of my previous replies. If you’re up for the challenge, **select the search icon** <img src="/images/font-awesome-search.png" width="16" height="16"> at the top right &#8599; to search for it.
 
-
-        Try searching for the term "capy&#8203;bara" in this topic</small>
+          <small>Try searching for the term "capy&#8203;bara" in this topic</small>
         hidden_message: |-
           How did you miss this capybara? :wink:
 
@@ -219,9 +216,7 @@ en:
 
           %{certificate}
 
-          That’s all for now! Go on and browse the [**discussion categories**](/categories) or check out [**the latest discussion topics**](/latest). :sunglasses:
-
-          Maybe share a photo of your recent creation in the [Made with JellyBOX](/c/made-with-jellybox) category. Sharing is caring ➡️ bragging is allowed here.
+          That’s all for now! Check out [**our latest discussion topics**](/latest) or [**discussion categories**](/categories). :sunglasses:
 
           (If you’d like to speak with me again to learn more, just message or mention `@%{discobot_username}` any time!)
 
@@ -287,7 +282,7 @@ en:
               I can create a category hashtag #
         reply: |-
           Great job! If tagging is enabled, tag hashtags will also be available in the autocomplete and you can use them like how you would for category hashtags.
-
+          
       poll:
         instructions: |-
           Did you know you can add a **poll** to any post?
