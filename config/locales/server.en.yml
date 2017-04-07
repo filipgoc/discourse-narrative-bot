@@ -55,7 +55,7 @@ en:
       hello:
         title: ":robot: Greetings!"
         message: |-
-          Thanks for joining %{title}, and welcome!
+          Thanks for joining %{title}, and welcome! FIlip
 
           - I’m only a robot, but [our friendly staff](/about) are also here to help if you need to reach a person.
 
@@ -282,7 +282,7 @@ en:
               I can create a category hashtag #
         reply: |-
           Great job! If tagging is enabled, tag hashtags will also be available in the autocomplete and you can use them like how you would for category hashtags.
-          
+
       poll:
         instructions: |-
           Did you know you can add a **poll** to any post?
